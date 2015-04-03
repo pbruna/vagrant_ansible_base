@@ -1,0 +1,11 @@
+---
+- hosts: all
+  sudo: yes
+  
+  roles:
+    - role: common
+    # - role: zzet.rbenv
+    #   rbenv_users:
+    #     - vagrant
+
+    
